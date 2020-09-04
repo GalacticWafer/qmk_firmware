@@ -24,7 +24,7 @@
 #define MATRIX_COL_PINS_RIGHT { B2, B3, B1, F7, F6, F5, F4 }
 #define UNUSED_PINS
 
-
+#define BACKLIGHT_PIN B5
 /* 23leds */
 //#define BACKLIGHT_LEVELS 3
 //#define BACKLIGHT_PIN B5
