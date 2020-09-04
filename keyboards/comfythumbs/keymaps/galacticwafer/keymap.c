@@ -31,7 +31,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_S,    KC_H,     KC_N,    KC_T,    KC_COMM, KC_TAB,            /**/   KC_BSLS, KC_DOT,  KC_A,    KC_E,    KC_O,    KC_I,    KC_QUOT,
         KC_F,    KC_M,     KC_V,    KC_C,    KC_X,                       /**/            KC_G,    KC_P,    KC_SLSH, KC_K,    KC_Y,    KC_APP,
         KC_CAPS, KC_APP,   KC_PAUS, MY_LSF,           KC_BSPC, ARROWS,   /**/   ARROWS,  KC_SPC,           MY_RSF,           KC_ENT,
-        MY_PAD,  KC_NO,    KC_NO,   KC_NO,   KC_LGUI, KC_LCTL, KC_LALT,  /**/   KC_RALT, KC_RGUI, KC_RCTL, KC_NO,   KC_NO,   KC_NO,   MY_PAD,
+        MY_PAD,  KC_NO,    KC_NO,   KC_NO,   KC_LGUI, KC_LCTL, KC_LALT,  /**/   KC_RALT, KC_RGUI, KC_RCTL, KC_NO,   KC_NO,   KC_NO,   MY_PAD
 ),
 
 [_NUMROW_LEFT] = LAYOUT_ortho_7x7 (
