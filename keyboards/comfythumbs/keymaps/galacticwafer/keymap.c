@@ -4,25 +4,28 @@
 #include QMK_KEYBOARD_H
 
 extern keymap_config_t keymap_config;
+<<<<<<< Updated upstream
 
 // Each layer gets a name for readability, which is then used in the keymap matrix below.
 // The underscores don't mean anything - you can have a layer called STUFF or any other name.
 // Layer names don't all need to be of the same length, obviously, and you can also skip them
 // entirely and just use numbers.
-
-
-enum layer_names {
-    _HALMAK,
-    _NUMPAD,
-    _NUMROW_LEFT,
-    _NUMROW_RIGHT,
-};
-
-#define MY_LSF MO(1)
-#define MY_RSF MO(2)
+=======
+//
+//enum layer_names {
+//    _HALMAK,
+//    _NUMPAD,
+//    _NUMROW_LEFT,
+//    _NUMROW_RIGHT,
+//};
+//
+//#define MY_LSF MO(1)
+//#define MY_RSF MO(2)
+>>>>>>> Stashed changes
 
 #define _QWERTY   0
 
+<<<<<<< Updated upstream
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
 [_QWERTY] = LAYOUT_ortho_7x7 (
@@ -46,7 +49,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 ),
 };
 
-
+=======
 [0] =  LAYOUT_ortho_7x7 (  
         KC_ESC,  KC_F1,    KC_F2,   KC_F3,   KC_F4,   KC_F5,   KC_F6,    /**/   KC_F7,   KC_F8,   KC_F9,   KC_F10,  KC_F11,  KC_F12,   KC_DEL,
         KC_GRV,  KC_EXLM,  KC_AT,   KC_HASH, KC_DLR,  KC_PERC, KC_UNDS,  /**/   KC_PLUS, KC_CIRC, KC_AMPR, KC_ASTR, KC_LPRN, KC_RPRN,  KC_PSCR,
