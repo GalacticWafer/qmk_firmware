@@ -10,16 +10,16 @@ extern keymap_config_t keymap_config;
 // Layer names don't all need to be of the same length, obviously, and you can also skip them
 // entirely and just use numbers.
 
-//
-//enum layer_names {
-//    _HALMAK,
-//    _NUMPAD,
-//    _NUMROW_LEFT,
-//    _NUMROW_RIGHT,
-//};
-//
-//#define MY_LSF MO(1)
-//#define MY_RSF MO(2)
+
+enum layer_names {
+    _HALMAK,
+    _NUMPAD,
+    _NUMROW_LEFT,
+    _NUMROW_RIGHT,
+};
+
+#define MY_LSF MO(1)
+#define MY_RSF MO(2)
 
 #define _QWERTY   0
 
